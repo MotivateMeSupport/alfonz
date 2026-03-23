@@ -38,8 +38,8 @@ h6{
 
 #kepernyo{
     position: relative;
-    width: 800px;
-    height: 500px;
+    width: 60vw;
+    height: 50vh;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -76,16 +76,15 @@ img{
 #road1, #road2 {
     position: absolute;
     top: 0;
-    width: 800px;
+    width: 100%;
     height: 100%;
 }
 
 
-#car{
-    width: 320px;
-    height: 80px;
+#car {
+    width: 40%;
+    height: auto;
     position: absolute;
     left: 15%;
-    bottom: 30px;
-    transform: none;
+    bottom: 5%;
 }
