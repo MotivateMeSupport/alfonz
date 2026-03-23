@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+h4{
+    color: white;
+    text-align: center;
+}
+
+h6{
+    display: inline;
+}
+
+#container{
+    display: flex;
+}
+
+#beallitasok{
+    width: 15%;
+    border: 2px solid white;
+    height: 500px;
+    background-color: #8c8281;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+#kepernyo{
+    background-color: white;
+    width: 60%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#utmutato{
+    width: 15%;
+    border: 2px solid white;
+    height: 500px;
+    background-color: #8c8281;
+}
+
+img{
+    width: 50px;
+    height: 50px;
+}
+
+#imgStop{
+    display: none;
+}
+
+#imgPause{
+    display: none;
+}
+
+#buttons{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}

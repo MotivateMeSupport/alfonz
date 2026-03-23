@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Alfonz buzi</title>
+        <link rel="stylesheet" type="text/css" href="style.css"/>
+    </head>
+    <body>
+        <h1>
+            Egyenes vonalu mozgas
+        </h1>
+
+        <div id="container">
+
+            <div id="beallitasok">
+                <h4>
+                    Beallitasok
+                </h4>
+
+                <form>
+                    <label>Kezdosebesseg (m/s):</label>
+                    <input type="number" step="any" required/>
+                    <label>Gyorsulas (m/s^2):</label>
+                    <input type="number" step="any" required/>
+                    <br>
+                    <label>Ido (s):</label>
+                    <br>
+                    <input type="number" step="any" required/>
+                    <br>
+                    <input type="submit" value="Mentes"/>
+                </form>
+            </div>
+
+            <div id="kepernyo">
+
+            </div>
+
+            <div id="utmutato">
+                <h4>
+                    Jelenlegi adatok:
+                </h4>
+                <label>Kezdosebesseg:</label>
+                <label id="txtSebesseg">3 m/s</label>
+                <br>
+                <br>
+                <br>
+                <label>Gyorsulas:</label>
+                <label id="txtGyorsulas">1 m/s^2</label>
+                <br>
+                <br>
+                <br>
+                <label>Ido:</label>
+                <label id="txtIdo">10 s</label>
+            </div>
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <div id="buttons">
+            <img src="btnPlay.png" id="imgPlay"/>
+            <img src="btnStop.png" id="imgStop"/>
+            <img src="btnPause.png" id="imgPause"/>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
